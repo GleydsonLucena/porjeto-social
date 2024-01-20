@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root {
+    --fonte-principal: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 98vh;
+}
+
+main {
+    background-image: url(../imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navebar img {
+    margin: 10px;
+    border-radius: 50%;
+    width: 7vw;
+}
+
+section.container {
+    text-align: center;
+}
