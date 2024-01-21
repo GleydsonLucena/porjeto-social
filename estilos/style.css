@@ -39,27 +39,29 @@ section.celular{
     height: 627px;
 }
 
-section.conteudo {
-    position: absolute;
-    top: 51%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 311px;
-    height: 627px;
+
+iframe#tela {
+
+    position: relative;
+    top: 12.5%;
+    left:7%;
+    width: 265px;
+    height: 470px;
 }
 
-section > iframe {
-    position: absolute;
-    top: 50%;
-    left: 49.2%;
-    transform: translate(-50%, -50%);
 
-    width: 278.5px;
-    height: 500px;
+
+a img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    transform: translate(5px );
+    transition: transform .5s, border .3s;
 }
 
-header img {
+.redes-sociais img {
+    display: block;
+    width: 50px;
+    margin: 10px;
     border-radius: 50%;
-    width: 70px;
-
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
 }
