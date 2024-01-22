@@ -11,7 +11,7 @@
 }
 
 html, body {
-    height: 100vh;
+    height: 98vh;
     width: 100vw;
 }
 
@@ -19,11 +19,12 @@ body {
     background: url(../imagens/fundo-madeira.jpg);
     background-size: cover;
     background-attachment: fixed;
+
 }
 
 main {
     position: relative;
-    height: 100vh;
+    height: 98vh;
     width: 100vw;
 }
 

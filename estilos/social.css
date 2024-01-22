@@ -10,11 +10,15 @@
     width: 0px;
 }
 
+
 img {
     width: 100vw;
+    
 }
 
 a {
+    position: relative;
+    top: -2px;
     display: block;
     background-color: darkred;
     color: white;
